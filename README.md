@@ -55,7 +55,7 @@ uvicorn main:app --reload --port 8000
 
 ---
 
-##  **Tech Stack**
+## **Tech Stack**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=Qiskit&logoColor=white)
@@ -68,9 +68,16 @@ uvicorn main:app --reload --port 8000
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
+<details>
+<summary><b>Expand **Tech Stack** Details</b></summary>
+<br/>
+
 ---
 
-##  **Documentation**
+<br/>
+</details>
+
+## **Documentation**
 
 ### ** Core Documentation**
 -  **[Complete Project Documentation](docs/docs.md)** - Overview and setup guide
@@ -79,6 +86,10 @@ uvicorn main:app --reload --port 8000
 -  **[Quantum Simulation Proof](docs/QUANTUM_SIMULATION_PROOF.md)** - Proof of real quantum implementation
 -  **[Quantum Visualization System](docs/QUANTUM_VISUALIZATION.md)** - Frontend quantum visualization components
 -  **[Quantum Circuit Diagrams](docs/QUANTUM_CIRCUIT_DIAGRAM.md)** - Detailed circuit diagrams and explanations
+
+<details>
+<summary><b>Expand **Documentation** Details</b></summary>
+<br/>
 
 ### ** Setup & Configuration**
 - ️ **[Setup Guide](SETUP.md)** - Complete installation and setup instructions
@@ -89,49 +100,18 @@ uvicorn main:app --reload --port 8000
 
 ---
 
-##  **Quick Start**
+<br/>
+</details>
 
-### **Prerequisites**
-- Python 3.10+
-- Node.js 18+
-- Git
-
-### **Local Development**
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/dev-Ninjaa/EntangleMe.git
-   cd EntangleMe
-   ```
-
-2. **Backend Setup**
-   ```bash
-   cd backend
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   python run.py
-   ```
-
-3. **Frontend Setup**
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
-
-4. **Access the application**
-   - Frontend: http://localhost:5173
-   - Backend: http://localhost:8000
-   - API Docs: http://localhost:8000/docs
-
----
-
-##  **Production Deployment**
+## **Production Deployment**
 
 ### **Backend (Render)**
 -  **Deployed:** [https://entangleme.onrender.com/](https://entangleme.onrender.com/)
 -  **Status:** Active and running
+
+<details>
+<summary><b>Expand **Production Deployment** Details</b></summary>
+<br/>
 
 ### **Frontend (Vercel)**
 -  **Deployed:** [https://entangleme.vercel.app/](https://entangleme.vercel.app/)
@@ -156,10 +136,17 @@ VITE_API_URL=https://entangleme.onrender.com/api/v1
 
 ---
 
+<br/>
+</details>
+
 ## ️ **Core Concept**
 
 **EntangleMe** follows actual quantum teleportation principles:
 > **Entangle → Encode → Measure → Send Classical Bits → Apply Corrections**
+
+<details>
+<summary><b>Expand ️ **Core Concept** Details</b></summary>
+<br/>
 
 This is the same foundation used in **quantum internet** and **secure quantum communication**.
 
@@ -173,10 +160,17 @@ This is the same foundation used in **quantum internet** and **secure quantum co
 
 ---
 
-##  **Why EntangleMe Matters?**
+<br/>
+</details>
+
+## **Why EntangleMe Matters?**
 
 ### **1. Quantum-Resistant Messaging**
 By transforming our simulated teleportation pipeline into a true QKD channel, EntangleMe can use the randomly generated measurement outcomes as shared secret keys. After each teleportation, those key bits encrypt classical payloads - guaranteeing that any eavesdropping attempt is immediately detectable.
+
+<details>
+<summary><b>Expand **Why EntangleMe Matters?** Details</b></summary>
+<br/>
 
 ### **2. Hybrid Quantum-Classical Workflows**
 Not all users have direct access to quantum hardware. EntangleMe's modular FastAPI and frontend architecture can be deployed as serverless functions or at the network edge, running lightweight quantum simulations close to the user.
@@ -186,13 +180,23 @@ As quantum repeaters and entanglement distribution networks become available, En
 
 ---
 
+<br/>
+</details>
+
 ## ️ **We Also Used: Classiq to Auto-Generate Teleportation Circuits**
 
 To simplify or scale the quantum backend, we explored using **Classiq**, a high-level quantum algorithm synthesis platform. Instead of building the quantum circuit manually, Classiq lets us define **intent**, and it builds the optimized circuit for us.
 
+<details>
+<summary><b>Expand ️ **We Also Used: Classiq to Auto-Generate Teleportation Circuits** Details</b></summary>
+<br/>
+
 ---
 
-##  **Features**
+<br/>
+</details>
+
+## **Features**
 
 ### ** Core Features**
 - ️ **Real Quantum Teleportation**: Actual Qiskit quantum circuits for teleportation
@@ -201,6 +205,10 @@ To simplify or scale the quantum backend, we explored using **Classiq**, a high-
 -  **Interactive Visualization**: Quantum circuit diagrams and state evolution
 -  **Bell Pair Entanglement**: Real quantum entanglement simulation
 -  **Success Probability**: Quantum measurement outcome analysis
+
+<details>
+<summary><b>Expand **Features** Details</b></summary>
+<br/>
 
 ### ** Frontend Features**
 -  **Modern UI**: Beautiful quantum-themed design with animations
@@ -218,7 +226,10 @@ To simplify or scale the quantum backend, we explored using **Classiq**, a high-
 
 ---
 
-##  **Project Structure**
+<br/>
+</details>
+
+## **Project Structure**
 
 ```
 EntangleMe/
@@ -233,6 +244,10 @@ EntangleMe/
 │   │   └── main.py           # FastAPI app
 │   ├── requirements.txt       # Python dependencies
 │   └── run.py               # Entry point
+
+<details>
+<summary><b>Expand **Project Structure** Details</b></summary>
+<br/>
 
 ├──  frontend/               # React frontend
 │   ├──  src/
@@ -255,6 +270,9 @@ EntangleMe/
 
 ---
 
+<br/>
+</details>
+
 ## ‍ **Team Members**
 
 | Role        | Name         | GitHub Profile |
@@ -274,13 +292,17 @@ EntangleMe/
 
 ---
 
-##  **Resources**
+## **Resources**
 
 ### **Quantum Computing**
 -  [Qiskit Teleportation Notebook](https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/Coding_With_Qiskit/ep5_Quantum_Teleportation.ipynb)
 - ▶️ [Qiskit YouTube Tutorial](https://www.youtube.com/watch?v=mMwovHK2NrE)
 - ️ [Classiq Documentation](https://docs.classiq.io/)
 -  [IBM Quantum Lab](https://quantum-computing.ibm.com/)
+
+<details>
+<summary><b>Expand **Resources** Details</b></summary>
+<br/>
 
 ### **Development**
 -  [FastAPI Documentation](https://fastapi.tiangolo.com/)
@@ -294,21 +316,8 @@ EntangleMe/
 
 ---
 
-##  **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-> **Built with ️ +  + ️ during CQHack25**
->
-> **A quantum leap into the future of secure communication!** 
-
-
----
+<br/>
+</details>
 
 ## Maintainer Response SLA
 Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
-
-## License
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
